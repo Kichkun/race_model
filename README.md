@@ -28,3 +28,7 @@ print("Race: ", demography["dominant_race"])
   'middle eastern': 0.01635842927498743,
   'white': 99.98220801353455}}
 ```
+
+
+**Pretrained weights** can be downloaded from
+[here](https://drive.google.com/file/d/1aOV5LmSA7317mK14bqxvp1RJEeZWCo9S/view?usp=sharing) and should be placed in "models" folder
