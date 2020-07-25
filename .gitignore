@@ -1,0 +1,17 @@
+__pycache__/*
+basemodels/__pycache__/*
+configurations/__pycache__/*
+build/
+dist/
+Pipfile
+Pipfile.lock
+.mypy_cache/
+.vscode/
+.idea/
+deepface.egg-info/
+race_model/__pycache__/*
+race_model/commons/__pycache__/*
+race_model/basemodels/__pycache__/*
+race_model/extendedmodels/__pycache__/*
+race_model/subsidiarymodels/__pycache__/*
+tests/dataset/*.pkl
