@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-git clone #https://github.com/Kichkun/race_model.git
+git clone https://github.com/Kichkun/race_model.git
 cd race_model
 pip install .
 ```
