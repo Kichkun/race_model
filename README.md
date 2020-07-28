@@ -12,9 +12,12 @@ pip install .
 including asian, white, middle eastern, indian, latino and black predictions. 
 ```python
 from race_model import RaceModel
-demography = RaceModel.analyze("img4.jpg")
-#demographies = DeepFace.analyze(["img1.jpg", "img2.jpg", "img3.jpg"]) #analyzing multiple faces same time
+import cv2
+img = cv2.imread("img4.jpg")
+demography = RaceModel.analyze(img)
+#demography = RaceModel.analyze([img, img]) #analyze multiple images
 print("Race: ", demography["dominant_race"])
+#print("Race: ", demography)
 ```
 
 <p align="center"><img src="https://makeameme.org/media/templates/250/the_most_interesting_man_in_the_world.jpg" width="30%" height="20%"></p>
@@ -28,3 +31,4 @@ print("Race: ", demography["dominant_race"])
   'middle eastern': 0.01635842927498743,
   'white': 99.98220801353455}}
 ```
+
