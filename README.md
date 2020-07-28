@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-git clone #https://github.com/Kichkun/race_model.git
+git clone https://github.com/Kichkun/race_model.git
 cd race_model
 pip install .
 ```
@@ -32,3 +32,5 @@ print("Race: ", demography["dominant_race"])
   'white': 99.98220801353455}}
 ```
 
+**Pretrained weights** can be downloaded from
+[here](https://drive.google.com/file/d/1aOV5LmSA7317mK14bqxvp1RJEeZWCo9S/view?usp=sharing) and should be placed in "models" folder
